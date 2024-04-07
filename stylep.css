@@ -1,0 +1,455 @@
+h1{
+
+    .kanit-thin {
+        font-family: "Kanit", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .kanit-extralight {
+        font-family: "Kanit", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .kanit-light {
+        font-family: "Kanit", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .kanit-regular {
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .kanit-medium {
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .kanit-semibold {
+        font-family: "Kanit", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .kanit-bold {
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .kanit-extrabold {
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .kanit-black {
+        font-family: "Kanit", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .kanit-thin-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .kanit-extralight-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+      
+      .kanit-light-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .kanit-regular-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .kanit-medium-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .kanit-semibold-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      
+      .kanit-bold-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .kanit-extrabold-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+      
+      .kanit-black-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+}
+
+.container{
+
+  width: 100%;
+  height: 100vh; /* view port height */
+  position: relative; /* Exact location */
+
+}
+
+.navbar{
+
+  display: flex;
+  width: 85%;
+  justify-content: space-between; /* create space between childelements */
+  margin-left: 125px;
+  align-items: center; /* to place child element vertically center */
+}
+
+#logo{
+
+  width: 163px;
+}
+
+ul li{  /* dicendant selector */
+
+  list-style: none; /* Remove list dots */
+  display: inline;
+  margin: 10px 30px;
+}
+
+.link{
+
+  text-decoration: none; /* to remove underlines */
+  color: black;
+  font-weight: 800; /* boldness */
+  font-size: 21px; /* font height */
+}
+
+/* element:pseudoclass{
+
+  property:value;
+} */
+
+.link:hover{
+
+  color: lightgreen;
+}
+
+.top{
+
+  color: lightgreen;
+}
+
+.title{
+
+  margin-left: 8%;
+  margin-top: 13%;
+ 
+}
+
+.title h1{
+
+  font-size: 80px;
+  font-weight: 800%;
+}
+
+.title p{
+
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.title a{
+font-weight: 900;
+text-decoration: none;
+background-color: black;
+color: white;
+padding: 20px 30px ;
+font-size: 20px;
+border-radius: 7px;
+display: inline-block;
+
+}
+
+.images{
+
+  width: 45%;
+  height: 80%;
+
+  position: absolute;
+  right: 30px;
+  bottom: 0px;
+
+}
+
+.imgroup{
+  position: absolute;
+  height: 100%;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: bottom 1s,left 1s;
+}
+
+.images:hover #shape{
+
+  bottom: 70px;
+
+}
+
+.images:hover #girl{
+
+  left: 40%;
+}
+
+.heading{
+  text-align: center;
+
+}
+
+.heading h1{
+
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.heading span{
+
+  color: darkgreen;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.about-contains{
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 100px;
+  margin-top: 4%;
+}
+
+.paragraph{
+
+  font-weight: 100;
+}
+.about-image img{
+
+  width: 81%;
+}
+
+.about-details p{
+
+  font-size: 20px;
+}
+
+.information{
+
+  margin-top: 20px;
+}
+
+.infobox{
+
+  margin-bottom: 2rem;
+  font-size: 17px;
+}
+
+.infobox span{
+
+  margin-left: 10px;
+}
+
+#skill{
+
+  margin: 8% 8% 0px 8%;
+}
+
+.skill-container{
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 50px;
+  margin-top: 4%;
+  
+
+}
+
+.skill-image img{
+
+width: 90%;
+margin-left: 8rem;
+}
+
+.progressbar{
+
+  margin-top: 2rem;
+}
+
+.bar-container{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.bar-container h3{
+
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.bar-container span{
+
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bar{
+
+  width: 100%;
+  height: 0.5rem;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.html-bar{
+
+  background-color: orange;
+  width: 95%;
+
+}
+
+.css-bar{
+
+  background-color: orange;
+  width: 88%;
+}
+
+.js-bar{
+  background-color: orange;
+  width: 89%;
+}
+
+.react-bar{
+  background-color: orange;
+  width: 85%;
+}
+
+.icon-set{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.icon {
+
+  width: 50px;
+  height: 50px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px ;
+  border-radius: 50%;
+  
+}
+
+.icon:hover{
+
+  background-image: linear-gradient(to bottom right,yellow, rgb(255, 94, 0));
+  
+}
+
+.icon i{
+
+
+font-size: 30px;
+color: black;
+
+
+}
+
+.icon:hover i{
+
+  color: white;
+  animation: shake 1s;
+}
+
+@keyframes shake{
+
+  10%{
+    transform: rotate(-15deg);
+  }
+  20%{
+    transform: rotate(-15deg);}
+  30%{
+    transform: rotate(-15deg);
+  }
+  40%{
+    transform: rotate(-15deg);
+  }
+}
+
+
+footer{
+
+  margin: 3rem 0px;
+}
+
+footer p{
+
+  text-align: center;
+  font-weight: 600;
+}
+
+.up-arrow{
+
+  
+  background-image: linear-gradient(to bottom right,yellow, rgb(255, 94, 0));
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 30px;
+
+  width: 50px;
+  height: 50px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px ;
+  border-radius: 50%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
